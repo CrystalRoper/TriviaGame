@@ -1,0 +1,35 @@
+body {
+    background-image: url(../images/backgroundimage-livingroom.jpg);
+    background-size: cover;
+}
+
+#main {
+    background-color: pink;
+    border: 2px solid black;
+    opacity: 0.9;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+#title {
+    color: black;
+    text-shadow: 2px 2px orangered;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 1.5in;
+}
+
+#questionContainer {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.options:hover {
+    font-display: bold;
+    background: orangered;
+}
