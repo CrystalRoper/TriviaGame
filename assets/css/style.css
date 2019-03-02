@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'SimpsonsFont';
+    src: url(../images/akbar/akbar.TTF); 
+}
+
 body {
     background-image: url(../images/backgroundimage-livingroom.jpg);
     background-size: cover;
@@ -17,6 +22,7 @@ body {
     color: black;
     text-shadow: 2px 2px orangered;
     text-align: center;
+    font-family: 'SimpsonsFont';
 }
 
 .btn {
@@ -32,4 +38,14 @@ body {
 .options:hover {
     font-display: bold;
     background: orangered;
+}
+
+#counter {
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+#question {
+    font-weight: bold;
 }
